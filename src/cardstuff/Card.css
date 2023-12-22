@@ -1,0 +1,20 @@
+/* Card.css */
+
+/*.custom-card {*/
+/*    width: 18rem; !* Adjust the width as needed *!*/
+/*    margin: 20px;*/
+/*    transition: transform 0.2s ease-in-out;*/
+/*}*/
+
+.custom-card:hover {
+    transform: scale(1.05); /* Add a scale effect on hover for a modern look */
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-description {
+    color: #555;
+}
