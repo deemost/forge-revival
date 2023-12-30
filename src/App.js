@@ -44,7 +44,7 @@ const App = () => {
                                        ]);
     return (
 
-        <div>
+        <div className='gradient' >
             <Row className="justify-content-center">
                 <Col>
                     <BrowserRouter>

@@ -16,7 +16,7 @@ import './Homepage.css';
 export default function Homepage() {
     return (
 
-        <Container className='gradient' fluid>
+        <Container fluid>
 
 
 
@@ -162,14 +162,6 @@ export default function Homepage() {
 
                         </p>
                     </div>
-                </Col>
-            </Row>
-
-
-
-            <Row className="my-lg-5">
-                <Col sm={4}>
-                    <h1 style={{ color: '#EF8F42' }}>Upcoming Events</h1>
                 </Col>
             </Row>
 

@@ -9,7 +9,7 @@ import './Teamspage.css'
 
 function TeamsPage() {
     return (
-        <Container className='gradient' fluid>
+        <Container fluid>
             <Row>
                 <Col sm={2}>
                     <h1 className=''>Teams</h1>
