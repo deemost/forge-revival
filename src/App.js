@@ -75,41 +75,47 @@ const App = () => {
                 </Col>
             </Row>
             <RouterProvider router={router}/>
-            <footer>
-                <img src= {ForgeLogoHeader} alt="Forge Logo" className="overlay-image"/>
-                <div className="social-links">
-                    <a href="https://www.instagram.com/forge.nu/" target="_blank" rel="noopener noreferrer">
-                        <img src={ig} alt="Instagram Icon" />
-                        forge.nu
-                    </a>
-                    <a href="https://www.linkedin.com/company/forgenu/" target="_blank" rel="noopener noreferrer">
-                        <img src={lin} alt="LinkedIn Icon" />
-                        www.linkedin.com/company/forgenu/
-                    </a>
-                    <a href="mailto:forgenortheastern@gmail.com">
-                        <img src={ml} alt="Gmail Icon" />
-                        forgenortheastern@gmail.com
-                    </a>
-                </div>
-                <div className="subscribe-container">
-                    <p>Subscribe to our newsletter!</p>
-                    <div className="subscribe-container-wrapper">
-                        <input type="email" placeholder="type email here..." />
-                        <button className="subscribe-button">Subscribe</button>
-                    </div>
-                </div>
-                <div className="bar">
-                    <Nav.Link
-                        style = {{color: "#BF5813", marginRight: '10px'}} href="about">
-                        About
-                    </Nav.Link>
-                    <Nav.Link
-                        style = {{color: "#BF5813", marginRight: '10px'}}href="teams">Teams</Nav.Link>
-                    <Nav.Link
-                        style = {{color: "#BF5813", marginRight: '10px'}} href="resources">Resources</Nav.Link>
-                    <Nav.Link
-                        style = {{color: "#BF5813", marginRight: '10px'}}href="past-projects">Past</Nav.Link>
-                </div>
+            <footer className="py-5 text-light">
+                <Container>
+                    <Row>
+                        <Col md={4} className="mb-4">
+                            <img src={ForgeLogoHeader} alt="Forge Logo" className="mb-3" />
+                            <div className="social-links">
+                                <a href="https://www.instagram.com/forge.nu/" target="_blank" rel="noopener noreferrer">
+                                    <img src={ig} alt="Instagram Icon" />
+                                    forge.nu
+                                </a>
+                                <a href="https://www.linkedin.com/company/forgenu/" target="_blank" rel="noopener noreferrer">
+                                    <img src={lin} alt="LinkedIn Icon" />
+                                    www.linkedin.com/company/forgenu/
+                                </a>
+                                <a href="mailto:forgenortheastern@gmail.com">
+                                    <img src={ml} alt="Gmail Icon" />
+                                    forgenortheastern@gmail.com
+                                </a>
+                            </div>
+                        </Col>
+                        <Col md={4} className="mb-4">
+                            <div className="subscribe-container">
+                                <p>Subscribe to our newsletter!</p>
+                                <div className="subscribe-container-wrapper">
+                                    <input type="email" className="form-control mb-2" placeholder="Type email here..." />
+                                    <button className="btn btn-primary">Subscribe</button>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md={4}>
+                            <div className="bar">
+                                <Nav.Link style={{ color: "#BF5813", marginBottom: '10px' }} href="about">
+                                    About
+                                </Nav.Link>
+                                <Nav.Link style={{ color: "#BF5813", marginBottom: '10px' }} href="teams">Teams</Nav.Link>
+                                <Nav.Link style={{ color: "#BF5813", marginBottom: '10px' }} href="resources">Resources</Nav.Link>
+                                <Nav.Link style={{ color: "#BF5813", marginBottom: '10px' }} href="past-projects">Past</Nav.Link>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </footer>
         </div>
     );
