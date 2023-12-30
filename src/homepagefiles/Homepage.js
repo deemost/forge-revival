@@ -8,7 +8,7 @@ import ForgeLogo3 from "../photos/Forge Logo 3.svg";
 import ForgeLogo4 from "../photos/Forge Logo 4.svg";
 import AnimationHolder from "../photos/Animation holder.svg";
 import Image6 from "../photos/Real Design System.svg";
-import Image7 from "../photos/Real Design System On the Spot.svg";
+import Image8 from "../photos/Image8.png";
 import '../App.css';
 import '../index.css';
 import './Homepage.css';
@@ -50,7 +50,7 @@ export default function Homepage() {
             <Row className="my-lg-5">
                 <Col sm={6}>
                     <div className="d-flex flex-column align-items-center justify-content-center">
-                        <Image className={"secondimage"} src={Image7}></Image>
+                        <Image className={"secondimage"} src={Image8}></Image>
                     </div>
                 </Col>
                 <Col sm={6}>
